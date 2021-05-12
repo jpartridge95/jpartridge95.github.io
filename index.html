@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Signika&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e9e8e37f7c.js" crossorigin="anonymous"></script>
+    <title>Digestible Designs</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="navbar-title">Digestible Designs</h1>
+        <a class="navbar-work">My work</a>
+        <a class="navbar-contact">Contact me</a>
+    </nav>
+    <header class="hero-image">
+        <h2>Your ideas.<br/> My expertise.</h2>
+    </header>
+    <section class="about-container">
+        <h3>About Me</h3>
+        <p>
+            I'm a self taught frontend developer based in Liverpool. I studied pharmaceutical
+            sciences at John Moore's uni and followed that up by going into teaching.<br/><br/>
+            A few years ago I picked up web development as a hobby and it's fully taken
+            over my life, much to the disdain of my partner. <br/><br/>
+            I specialise in ReactJS which implies (rightfully) some degree of mastery over CSS, HTML,
+            and of course JavaScript.
+        </p>
+    </section>
+    <section class="flex-banner">
+        <div class="banner-box">
+            <h4>Bespoke</h4>
+            <p>
+                All my websites are uniquely made with your needs in mind, <br/><br/>
+                No templates<br/>
+                No wordpress themes<br/>
+                Just thoughtful design.
+            </p>
+        </div>
+        <div class="banner-box">
+            <h4>Tested</h4>
+            <p>
+                All websites are lighthouse tested for performance, accessibility
+                and search engine optimisation. This translates to a higher spot on 
+                googles list, and as a direct result more clicks for your site.
+            </p>
+        </div>
+        <div class="banner-box">
+            <h4>Responsive</h4>
+            <p>
+                Do you want your site to look good on every device, from mobile
+                to desktop? Obviously you do.<br/>
+                My sites utilise modern CSS features to ensure a smooth experience
+                on every device.
+            </p>
+        </div>
+    </section>
+    <h2 class="projects-header">Things I've made</h2>
+    <section class="projects-container mobile-hidden" id="desktop-skills">
+        <div class="project-food">
+            <div class="food-info" tabindex="1">
+                <h4>Meal Planning app</h4>
+                <a href="https://thoughtforfood.vercel.app">Live site</a>
+                <a href="https://github.com/jpartridge95/food-app">Source Code</a>
+            </div>
+        </div>
+        <div class="project-portfolio">
+            <div class="portfolio-info">
+                <h4>Old Portfolio Site</h4>
+                <a href="https://old-portfolio-jordan.vercel.app">Live Site</a>
+                <a href="https://github.com/jpartridge95/old-portfolio">Source Code</a>
+            </div>
+        </div>
+        <div class="project-budget">
+            <div class="budget-info">
+                <h4>Money Calculator</h4>
+                <a href="https://simplybudget.vercel.app">Live Site</a>
+                <a href="https://github.com/jpartridge95/react-app">Source Code</a>
+            </div>
+        </div>
+    </section>
+    <!-- ~~~~~~~~~~~~~~~
+        Mobile Only skills
+        ~~~~~~~~~~~~~~~~~ -->
+    <section class="desktop-hidden" id="mobile-skills">
+
+        <!-- Thought for food section -->
+        <h4>Meal Planning app</h4>
+        <img src="./images/new-food.webp" class="mobile-project-image" alt="Thought for food image">
+        <h5>Skills Used</h5>
+        <div class="skill-image-container">
+            <img src="./images/reactJSLogo.png" alt="ReactJS logo" loading="lazy"/>
+            <img src="./images/html5Logo.png" alt="HTML 5 Logo" loading="lazy"/>
+            <img src="./images/CSS3.png" alt="CSS 3 Logo" loading="lazy"/>
+            <img src="./images/javascriptLogo.png" alt="JavaScript Logo" loading="lazy"/>
+        </div>
+        <div class="mobile-skill-links">
+            <a href="https://thoughtforfood.vercel.app">Live site</a>
+            <a href="https://github.com/jpartridge95/food-app">Source Code</a>
+        </div>
+        <!-- Old portfolio section -->
+        <h4>Old Portfolio Site</h4>
+        <img src="images/old-portfolio.webp" class="mobile-project-image" alt="Old Portfolio picture">
+        <h5>Skills Used</h5>
+        <div class="skill-image-container">
+            <img src="./images/html5Logo.png" alt="HTML 5 Logo" loading="lazy"/>
+            <img src="./images/CSS3.png" alt="CSS 3 Logo" loading="lazy"/>
+            <img src="./images/javascriptLogo.png" alt="JavaScript Logo" loading="lazy"/>
+            <img src="./images/tailwind.jpg" alt="Tailwind CSS Logo" loading="lazy"/>
+        </div> 
+        <div class="mobile-skill-links">
+            <a href="#">Live site</a>
+            <a href="#">Source Code</a>
+        </div>
+        <!-- Money App Section -->
+        <h4>Money Calculator</h4>
+        <img src="./images/money-app.webp" alt="Money app picture" class="mobile-project-image" >
+        <h5>Skills Used</h5>
+        <div class="skill-image-container">
+            <img src="./images/reactJSLogo.png" alt="React Logo" loading="lazy"/>
+            <img src="./images/html5Logo.png" alt="HTML Logo" loading="lazy"/>
+            <img src="./images/CSS3.png" alt="CSS 3 Logo" loading="lazy"/>
+            <img src="./images/javascriptLogo.png" alt="JavaScript Logo" loading="lazy"/>
+        </div>
+        <div class="mobile-skill-links">
+            <a href="https://simplybudget.vercel.app">Live Site</a>
+            <a href="https://github.com/jpartridge95/react-app">Source Code</a>
+        </div>
+    </section>
+    <!-- ~~~~~~~~~~~~~~~~~
+        Desktop only skills
+        ~~~~~~~~~~~~~~~~~~ -->
+    <section class="mobile-hidden">
+        <div id="food-skills" class="skills-container">
+            <h4>Skills Used</h4>
+            <p>
+                This is an app designed to aid in the planning of meals. <br/>
+                The help it provides is an aggregated macronutrient breakdown 
+                and a shopping list for each individual meal. <br/> <br/>
+                This site consumes the Spoonacular and Quickcharts APIs. Try the site 
+                to learn more.
+            </p>
+            <img src="./images/reactJSLogo.png" alt="ReactJS logo" loading="lazy"/>
+            <img src="./images/html5Logo.png" alt="HTML 5 Logo" loading="lazy"/>
+            <img src="./images/CSS3.png" alt="CSS 3 Logo" loading="lazy"/>
+            <img src="./images/javascriptLogo.png" alt="JavaScript Logo" loading="lazy"/>
+        </div>
+        <div id="portfolio-skills" class="skills-container" >
+            <h4>Skills Used</h4>
+            <p>
+                This was my previous iteration of a portfolio website,
+                the design for this site was made up on the fly, and it shows.
+                However I think this is a good example of my progression
+                as a front end developer.<br/><br/>
+                The most notable tech for this site was Tailwind CSS, which
+                was amazing for speed of development.
+            </p>
+            <img src="./images/html5Logo.png" alt="HTML 5 Logo" loading="lazy"/>
+            <img src="./images/CSS3.png" alt="CSS 3 Logo" loading="lazy"/>
+            <img src="./images/javascriptLogo.png" alt="JavaScript Logo" loading="lazy"/>
+            <img src="./images/tailwind.jpg" alt="Tailwind CSS Logo" loading="lazy"/>
+        </div>
+        <div id="budget-skills" class="skills-container">
+            <h4>Skills used</h4>
+            <p>
+                A very simple React single page app, the purpose of this
+                app is to be a quick way to generate an income vs expenditure
+                report, and was inspired by the final project in 
+                Harvard's CS50 online course. <br/><br/>
+                This aim of this project was to familiarise myself with 
+                functional components and hooks in React.
+            </p>
+            <img src="./images/reactJSLogo.png" alt="React Logo" loading="lazy"/>
+            <img src="./images/html5Logo.png" alt="HTML Logo" loading="lazy"/>
+            <img src="./images/CSS3.png" alt="CSS 3 Logo" loading="lazy"/>
+            <img src="./images/javascriptLogo.png" alt="JavaScript Logo" loading="lazy"/>
+        </div>
+    </section>
+    <section class="contact-container" id="contact-box">
+        <div class="contact-left">
+            <h4>Contact</h4>
+            <p>
+                Well done, you've made it to the end of the page<br/><br/>
+                If what you've seen here has made you think I could 
+                be the right person for your business, fill in the form
+                and I will get back to you to discuss the project.<br/><br/>
+                I try to reply within 48 hours, but depending on my schedule
+                it can take up to 72.<br/><br/> I look forward to hearing from you.<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp; - Jordan
+            </p>
+        </div>
+        <div class="contact-right">
+            <form id="my-form" action="https://formspree.io/f/mknkjolr" method="POST">
+                <input
+                    id="first-name" 
+                    name="firstName"
+                    type="text" 
+                    placeholder="First Name" 
+                    aria-label="First Name"
+                    aria-required="true"
+                    required />
+                <input
+                    id="last-name"
+                    name="lastName"
+                    type="text"
+                    placeholder="Last Name"
+                    aria-label="Last Name"
+                    aria-required="true"
+                    required />
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="email@example.com"
+                    aria-label="email"
+                    aria-required="true"
+                    required />
+                <input
+                    id="subject"
+                    name="messageSubject"
+                    type="text"
+                    placeholder="RE: Subject"
+                    aria-label="Message Subject"
+                    aria-required="true"
+                    required />
+                <textarea
+                    id="message-body"
+                    name="messageBody"
+                    placeholder="I love your website and want one too"
+                    aria-label="Message body"
+                    aria-required="true"
+                    required ></textarea>
+                <button 
+                    id="submit"
+                    name="submit"
+                    aria-label="Send Message">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Todo, 
+        finalise links
+        push :)
+
+        roughly 1 day work left
+         -->
+    <div class="sneaky-div">
+    </div>
+    <footer id="footer" class="footer-container">
+        <a href="https://github.com/jpartridge95"><i class="fab fa-github fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/jordan-partridge-43a886203/"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="https://www.instagram.com/covidkitty20/"><i class="fab fa-instagram fa-3x"></i></a>
+    </footer>
+
+    <script src="src/js/jquery/jquery-3.6.0.min.js" ></script>
+    <script src="src/js/index.js"></script>
+</body>
+</html> 
