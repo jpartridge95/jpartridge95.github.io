@@ -365,7 +365,7 @@ html {
 .project-budget {
     flex: 0 1 30vw;
     max-width: 30vw;
-    background: url("../../images/money-app.webp");
+    background: url("../../images/base-chat.webp");
     background-size: cover;
     background-position: top;
     overflow: hidden;
